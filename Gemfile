@@ -39,6 +39,9 @@ gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resour
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'devise'
 
+# This gem allows us to use Slim instead of ERB in our views. http://slim-lang.com/
+gem 'slim-rails'
+
 
 
 group :development, :test do
