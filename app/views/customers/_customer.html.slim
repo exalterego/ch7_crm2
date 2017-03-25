@@ -10,3 +10,9 @@
   p
     strong> Notes:
     = customer.notes
+  p 
+    strong Province: 
+    - if customer.province.present?
+      = customer.province.name 
+    - else
+      | None

@@ -1,3 +1,4 @@
-h1 All Customers With No Email
-p link link
-= render partial: 'customers/customer', collection: @customers
+h1 Missing email customers
+p = link_to 'All customers', root_path
+p = link_to 'Alphabetized customers', alphabetized_path
+p = render partial: 'customers/customer', collection: @customers

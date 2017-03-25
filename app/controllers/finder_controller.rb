@@ -4,7 +4,7 @@ class FinderController < ApplicationController
   end
 
   def alphabetized
-    @customers = Customer.order(fullname)
+    @customers = Customer.order(:fullname)
   end
 
   def missing_email
